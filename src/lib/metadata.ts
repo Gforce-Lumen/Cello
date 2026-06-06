@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 
+import { absoluteUrl } from "@/lib/deployment";
+
 const siteTitle = "Marlund";
 
 export function buildPageMetadata(
@@ -13,14 +15,14 @@ export function buildPageMetadata(
     title: fullTitle,
     description,
     alternates: {
-      canonical: path,
+      canonical: absoluteUrl(path),
     },
     openGraph: {
       title: fullTitle,
       description,
       siteName: siteTitle,
       type: "website",
-      url: path,
+      url: absoluteUrl(path),
     },
     twitter: {
       card: "summary_large_image",

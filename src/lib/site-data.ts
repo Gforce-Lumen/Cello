@@ -1,3 +1,5 @@
+import { withBasePath } from "@/lib/deployment";
+
 export const siteConfig = {
   name: "Cello Restaurant & Bar Ghana",
   shortName: "Cello",
@@ -12,7 +14,7 @@ export const siteConfig = {
   email: "hello@cello.example.com",
   mapsHref:
     "https://www.google.com/maps/search/?api=1&query=Cello+Restaurant+and+Bar+Accra",
-  menuPdfHref: "/cello-menu.pdf",
+  menuPdfHref: withBasePath("/cello-menu.pdf"),
   orderHref: "https://odoo.cello.example.com/table-order",
   privateBookingHref: "/venue",
   bookingHref: "/booking",

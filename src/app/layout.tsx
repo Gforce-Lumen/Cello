@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond, Cormorant_SC, Jost } from "next/font/google";
 
 import { SiteShell } from "@/components/site-shell";
+import { siteUrl } from "@/lib/deployment";
 import "./globals.css";
 
 const headingFont = Cormorant_SC({
@@ -23,7 +24,7 @@ const bodyFont = Jost({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.marlund.example"),
+  metadataBase: new URL(siteUrl),
   title: "Marlund",
   description:
     "A Marlund-inspired premium restaurant website ported into the current Next.js application.",
