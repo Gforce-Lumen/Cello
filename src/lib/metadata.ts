@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 
-import { siteConfig } from "@/lib/site-data";
-
-const siteTitle = siteConfig.name;
+const siteTitle = "Marlund";
 
 export function buildPageMetadata(
   title: string,

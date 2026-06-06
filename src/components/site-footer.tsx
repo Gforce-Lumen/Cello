@@ -1,83 +1,64 @@
 import Link from "next/link";
 
-import { siteConfig } from "@/lib/site-data";
-
 export function SiteFooter() {
   return (
-    <footer className="border-t border-white/8 bg-[#0b0a0c]">
-      <div className="mx-auto grid max-w-[92rem] gap-12 px-5 py-14 sm:px-6 lg:grid-cols-[1.2fr_0.8fr_0.8fr] lg:px-10">
-        <div>
-          <p className="text-[0.68rem] font-semibold uppercase tracking-[0.42em] text-[var(--color-accent)]">
-            {siteConfig.city}
-          </p>
-          <h2 className="mt-4 font-display text-4xl leading-none text-white sm:text-5xl">
-            Cello holds dinner, drinks, and late evenings in one warm room.
-          </h2>
-          <p className="mt-5 max-w-xl text-sm leading-7 text-[var(--color-ink-muted)]">
-            Minimal navigation, warm imagery, and clear booking paths now. Final photography and
-            confirmed venue details can drop into the same structure later.
-          </p>
-          <div className="mt-7 flex flex-wrap gap-5 text-[0.72rem] uppercase tracking-[0.28em] text-[var(--color-sand)]">
-            <Link href="/menu" className="transition hover:text-white">
-              View Menu
+    <footer className="bg-[#372821] px-8 py-16">
+      <div className="mx-auto max-w-[1400px]">
+        <div className="grid grid-cols-1 gap-12 border-b border-[#5e5249] pb-12 md:grid-cols-4">
+          <div className="flex flex-col gap-3">
+            <Link
+              href="/"
+              className="font-display text-[22px] font-semibold uppercase tracking-[0.2em] text-[#fbf4e9]"
+            >
+              MARLUND
             </Link>
-            <Link href="/booking" className="transition hover:text-white">
-              Reserve
-            </Link>
+            <p className="text-[12px] uppercase tracking-widest text-[#fbf4e9]/50">
+              © 2025 All Rights Reserved
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-3">
+            <p className="mb-1 text-[11px] uppercase tracking-[0.2em] text-[#fbf4e9]/50">Contact</p>
+            <p className="text-[13px] text-[#fbf4e9]">Marlborough Street, London W1F 7EE</p>
+            <p className="text-[13px] text-[#fbf4e9]">+020 4321 8765</p>
+            <p className="text-[13px] text-[#fbf4e9]">hello@marlund.com</p>
+          </div>
+
+          <div className="flex flex-col gap-3">
+            <p className="mb-1 text-[11px] uppercase tracking-[0.2em] text-[#fbf4e9]/50">
+              Opening Hours
+            </p>
+            <p className="text-[13px] text-[#fbf4e9]">Mon-Thu: 12:00-22:00</p>
+            <p className="text-[13px] text-[#fbf4e9]">Fri-Sat: 12:00-23:00</p>
+            <p className="text-[13px] text-[#fbf4e9]">Sun: 12:00-20:00</p>
+          </div>
+
+          <div className="flex flex-col gap-8">
+            <div className="flex flex-col gap-3">
+              <p className="mb-1 text-[11px] uppercase tracking-[0.2em] text-[#fbf4e9]/50">Socials</p>
+              <a href="#" className="text-[13px] text-[#fbf4e9] transition-opacity hover:opacity-60">
+                Instagram
+              </a>
+              <a href="#" className="text-[13px] text-[#fbf4e9] transition-opacity hover:opacity-60">
+                X (Twitter)
+              </a>
+            </div>
+            <div className="flex flex-col gap-3">
+              <p className="mb-1 text-[11px] uppercase tracking-[0.2em] text-[#fbf4e9]/50">Legal</p>
+              <a href="#" className="text-[13px] text-[#fbf4e9] transition-opacity hover:opacity-60">
+                Privacy Policy
+              </a>
+              <a href="#" className="text-[13px] text-[#fbf4e9] transition-opacity hover:opacity-60">
+                Terms of Service
+              </a>
+            </div>
           </div>
         </div>
-        <div>
-          <h3 className="text-[0.72rem] font-semibold uppercase tracking-[0.28em] text-white">
-            Navigate
-          </h3>
-          <ul className="mt-5 space-y-3 text-sm text-[var(--color-ink-muted)]">
-            {[
-              { href: "/", label: "Home" },
-              { href: "/menu", label: "Menu" },
-              { href: "/events", label: "Events" },
-              { href: "/venue", label: "Private Venue" },
-              { href: "/contact", label: "Contact" },
-            ].map((page) => (
-              <li key={page.href}>
-                <Link href={page.href} className="transition hover:text-white">
-                  {page.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div className="space-y-7">
-          <div>
-            <h3 className="text-[0.72rem] font-semibold uppercase tracking-[0.28em] text-white">
-              Contact
-            </h3>
-            <ul className="mt-5 space-y-3 text-sm leading-7 text-[var(--color-ink-muted)]">
-              <li>{siteConfig.address}</li>
-              <li>
-                <a href={siteConfig.phoneHref} className="transition hover:text-white">
-                  {siteConfig.phoneDisplay}
-                </a>
-              </li>
-              <li>
-                <a href={`mailto:${siteConfig.email}`} className="transition hover:text-white">
-                  {siteConfig.email}
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-[0.72rem] font-semibold uppercase tracking-[0.28em] text-white">
-              Hours
-            </h3>
-            <ul className="mt-5 space-y-3 text-sm text-[var(--color-ink-muted)]">
-              {siteConfig.hours.map((entry) => (
-                <li key={entry.label} className="flex items-center justify-between gap-4">
-                  <span>{entry.label}</span>
-                  <span>{entry.value}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+
+        <div className="pt-8 text-center">
+          <p className="font-serif text-[13px] italic text-[#fbf4e9]/35">
+            Fine dining in the heart of London since 2018
+          </p>
         </div>
       </div>
     </footer>

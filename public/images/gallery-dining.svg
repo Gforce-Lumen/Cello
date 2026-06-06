@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1120">
-  <rect width="900" height="1120" fill="#0f0d10"/>
-  <circle cx="250" cy="320" r="190" fill="#c18b57" opacity="0.2"/>
-  <circle cx="640" cy="560" r="240" fill="#fff0da" opacity="0.08"/>
-  <text x="88" y="1030" fill="#f6f2eb" font-size="34" font-family="Georgia, serif" letter-spacing="7">gallery-dining.svg</text>
-</svg>

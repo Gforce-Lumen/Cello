@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1120">
-  <rect width="900" height="1120" fill="#100f13"/>
-  <rect x="280" y="170" width="160" height="470" rx="80" fill="#bf7c57" opacity="0.36"/>
-  <rect x="470" y="270" width="160" height="420" rx="80" fill="#f0b89c" opacity="0.16"/>
-  <text x="70" y="1030" fill="#f6f2eb" font-size="34" font-family="Georgia, serif" letter-spacing="7">gallery-cocktails.svg</text>
-</svg>

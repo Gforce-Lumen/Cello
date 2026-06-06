@@ -1,36 +1,45 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Manrope } from "next/font/google";
+import { Cormorant_Garamond, Cormorant_SC, Jost } from "next/font/google";
 
 import { SiteShell } from "@/components/site-shell";
-import { siteConfig } from "@/lib/site-data";
 import "./globals.css";
 
-const displayFont = Cormorant_Garamond({
-  variable: "--font-cormorant",
+const headingFont = Cormorant_SC({
+  variable: "--font-cormorant-sc",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["300", "400", "500", "600", "700"],
 });
 
-const bodyFont = Manrope({
-  variable: "--font-manrope",
+const serifFont = Cormorant_Garamond({
+  variable: "--font-cormorant-garamond",
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+});
+
+const bodyFont = Jost({
+  variable: "--font-jost",
+  subsets: ["latin"],
+  weight: ["300", "400", "500"],
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.cello-restaurant.example"),
-  title: siteConfig.name,
-  description: siteConfig.description,
-  applicationName: siteConfig.name,
+  metadataBase: new URL("https://www.marlund.example"),
+  title: "Marlund",
+  description:
+    "A Marlund-inspired premium restaurant website ported into the current Next.js application.",
+  applicationName: "Marlund",
   openGraph: {
-    title: siteConfig.name,
-    description: siteConfig.description,
-    siteName: siteConfig.name,
+    title: "Marlund",
+    description:
+      "A Marlund-inspired premium restaurant website ported into the current Next.js application.",
+    siteName: "Marlund",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: siteConfig.name,
-    description: siteConfig.description,
+    title: "Marlund",
+    description:
+      "A Marlund-inspired premium restaurant website ported into the current Next.js application.",
   },
 };
 
@@ -42,7 +51,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${displayFont.variable} ${bodyFont.variable} h-full antialiased`}
+      className={`${headingFont.variable} ${serifFont.variable} ${bodyFont.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-[var(--color-bg)] text-[var(--color-ink)]">
         <SiteShell>{children}</SiteShell>

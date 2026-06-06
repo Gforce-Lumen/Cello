@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://www.cello-restaurant.example/sitemap.xml",
+    sitemap: "https://www.marlund.example/sitemap.xml",
   };
 }
