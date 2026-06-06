@@ -18,9 +18,9 @@ const variantClasses = {
   primary:
     "bg-[var(--color-accent)] text-[var(--color-ink-strong)] hover:bg-[var(--color-accent-soft)]",
   secondary:
-    "border border-white/20 bg-white/5 text-white hover:border-[var(--color-accent)] hover:bg-white/10",
+    "border border-white/18 bg-white/[0.03] text-white hover:border-[var(--color-accent)] hover:bg-white/[0.08]",
   ghost:
-    "border border-[var(--color-accent)]/30 bg-transparent text-[var(--color-accent)] hover:border-[var(--color-accent)] hover:bg-[var(--color-accent)]/10",
+    "border border-[var(--color-accent)]/24 bg-transparent text-[var(--color-sand)] hover:border-[var(--color-accent)] hover:bg-[var(--color-accent)]/10 hover:text-white",
 } as const;
 
 function isExternalHref(href: string) {
@@ -34,7 +34,7 @@ export function CtaButton({
   analyticsEvent,
   className = "",
 }: CtaButtonProps) {
-  const sharedClassName = `inline-flex min-h-11 items-center justify-center rounded-full px-5 py-3 text-sm font-semibold uppercase tracking-[0.24em] transition ${variantClasses[variant]} ${className}`;
+  const sharedClassName = `inline-flex min-h-11 items-center justify-center rounded-full px-5 py-3 text-[0.72rem] font-semibold uppercase tracking-[0.28em] transition ${variantClasses[variant]} ${className}`;
 
   const handleClick = () => {
     if (analyticsEvent) {

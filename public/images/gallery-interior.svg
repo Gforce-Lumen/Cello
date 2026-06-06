@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1120">
+  <rect width="900" height="1120" fill="#151216"/>
+  <rect x="110" y="180" width="680" height="620" rx="34" fill="#6d523d" opacity="0.3"/>
+  <rect x="180" y="260" width="540" height="460" rx="28" fill="#f2d9b0" opacity="0.08"/>
+  <text x="62" y="1030" fill="#f6f2eb" font-size="34" font-family="Georgia, serif" letter-spacing="7">gallery-interior.svg</text>
+</svg>

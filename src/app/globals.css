@@ -30,8 +30,8 @@ html {
 
 body {
   background:
-    radial-gradient(circle at top, rgba(195, 143, 89, 0.18), transparent 28%),
-    linear-gradient(180deg, #120f12 0%, #0b0a0c 100%);
+    radial-gradient(circle at top, rgba(195, 143, 89, 0.13), transparent 26%),
+    linear-gradient(180deg, #110f12 0%, #09080a 100%);
   color: var(--color-ink);
   font-family: var(--font-manrope), sans-serif;
 }
@@ -51,4 +51,9 @@ textarea {
 ::selection {
   background: rgba(195, 143, 89, 0.35);
   color: white;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }

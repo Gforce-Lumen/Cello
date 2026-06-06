@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 960">
+  <rect width="1200" height="960" fill="#110e11"/>
+  <rect x="250" y="300" width="700" height="320" rx="160" fill="#7d4833" opacity="0.4"/>
+  <text x="112" y="860" fill="#f6f2eb" font-size="38" font-family="Georgia, serif" letter-spacing="8">kitchen-sirloin-sizzle.svg</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 960" role="img" aria-labelledby="title desc">
+  <title id="title">About interior placeholder</title>
+  <desc id="desc">Warm interior placeholder for about-interior.svg</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6a4b3c"/>
+      <stop offset="55%" stop-color="#241d20"/>
+      <stop offset="100%" stop-color="#0e0d0f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="960" fill="url(#g)"/>
+  <rect x="130" y="190" width="940" height="500" rx="28" fill="#f0d3a6" opacity="0.08"/>
+  <text x="84" y="860" fill="#f6f2eb" font-size="38" font-family="Georgia, serif" letter-spacing="8">about-interior.svg</text>
+</svg>
