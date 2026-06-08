@@ -39,7 +39,7 @@ export function SiteHeader() {
           href="/"
           className="font-display text-[22px] font-semibold uppercase tracking-[0.2em] text-[#fbf4e9]"
         >
-          MARLUND
+          CELLO
         </Link>
 
         <nav className="hidden items-center gap-10 md:flex">

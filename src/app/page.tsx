@@ -5,7 +5,7 @@ import { buildPageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = buildPageMetadata(
   "Home",
-  "A celebration of seasonal British produce, elevated through classical technique and quiet elegance.",
+  "Food, cocktails, music, and evening rhythm in one warm Accra setting.",
   "/",
 );
 

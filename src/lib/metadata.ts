@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 import { absoluteUrl } from "@/lib/deployment";
 
-const siteTitle = "Marlund";
+const siteTitle = "Cello Restaurant & Bar";
 
 export function buildPageMetadata(
   title: string,
