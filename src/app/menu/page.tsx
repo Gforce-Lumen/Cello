@@ -5,7 +5,7 @@ import { buildPageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = buildPageMetadata(
   "The Menu",
-  "Explore Marlund's seasonal mains, light bites, and house cocktails.",
+  "Explore Cello's starters, mains, cocktails, wines, and bar menu.",
   "/menu",
 );
 

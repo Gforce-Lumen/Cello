@@ -13,40 +13,40 @@ const VENUE_IMG =
 
 const EVENTS = [
   {
-    date: "Sat 12 Jul 2025",
-    tag: "Tasting Dinner",
-    title: "Wine & Seasons",
-    subtitle: "A Six-Course Journey Through Summer",
-    desc: "An intimate tasting dinner pairing each course with natural wines curated by head sommelier Owen Patel. The menu traces the arc of a British summer - from the first broad beans to the final blackberries.",
-    price: "£120 per person",
-    spots: "12 seats remaining",
+    date: "Every Friday",
+    tag: "Lounge Night",
+    title: "Friday Lounge Night",
+    subtitle: "Cocktails, music, and late-evening tables",
+    desc: "Cocktails, music, and late-evening tables.",
+    price: "Reservations open",
+    spots: "Evening tables available",
   },
   {
-    date: "Fri 2 Aug 2025",
-    tag: "Chef's Table",
-    title: "At the Pass",
-    subtitle: "A Private Evening with James Croft",
-    desc: "Twelve guests sit at the chef's counter for an unscripted menu. James cooks what arrives that morning from the market and tells the story of each dish as it's made. No menu cards, no surprises you don't want.",
-    price: "£180 per person",
-    spots: "4 seats remaining",
+    date: "Selected Dates",
+    tag: "Live Music",
+    title: "Live Band Evening",
+    subtitle: "Dinner, drinks, and live sounds",
+    desc: "Dinner, drinks, and live sounds in a warm restaurant-bar setting.",
+    price: "Details coming soon",
+    spots: "View schedule soon",
   },
   {
-    date: "Sat 23 Aug 2025",
-    tag: "Long Lunch",
-    title: "Garden Party",
-    subtitle: "An Afternoon on the Terrace",
-    desc: "A leisurely four-hour lunch on Marlund's private terrace. Grazing plates, chilled bottles of rosé, and live acoustic music. Dress for warmth and stay for the sunset.",
-    price: "£75 per person",
-    spots: "20 seats remaining",
+    date: "Every Sunday",
+    tag: "Brunch",
+    title: "Sunday Brunch",
+    subtitle: "A softer afternoon for food and drinks",
+    desc: "A softer afternoon for food, drinks, and easy conversation.",
+    price: "Bookings available",
+    spots: "Reserve brunch seating",
   },
   {
-    date: "Sat 20 Sep 2025",
-    tag: "Harvest Dinner",
-    title: "Autumn Opening",
-    subtitle: "Celebrating the New Season",
-    desc: "Marlund closes for two weeks each September to prepare the autumn menu. This annual dinner marks its return - a celebration of everything that late harvest brings: game, roots, fungi, and the last of the stone fruit.",
-    price: "£95 per person",
-    spots: "Coming soon",
+    date: "Match Days",
+    tag: "Watch Party",
+    title: "Game Night",
+    subtitle: "Watch parties, sharing plates, and bottles",
+    desc: "Watch parties, sharing plates, bottles, and group seating.",
+    price: "Group tables available",
+    spots: "Reserve a spot",
   },
 ] as const;
 
@@ -67,7 +67,7 @@ export function EventsPage() {
             className="mb-4 uppercase tracking-[0.3em] opacity-60"
             style={{ ...bodyStyle, fontSize: "11px", color: "#fbf4e9" }}
           >
-            Marlund
+            Cello
           </p>
           <h1
             className="leading-none"
@@ -88,7 +88,7 @@ export function EventsPage() {
           className="mb-5 uppercase tracking-[0.25em] opacity-50"
           style={{ ...bodyStyle, fontSize: "11px", color: "#372821" }}
         >
-          Event Series
+          Events at Cello
         </p>
         <h2
           className="mb-6 leading-tight"
@@ -99,7 +99,7 @@ export function EventsPage() {
             fontWeight: 600,
           }}
         >
-          AN EVENING WORTH MARKING
+          LIVE SOUNDS, GROUP TABLES, AND WEEKEND ENERGY
         </h2>
         <p
           style={{
@@ -111,9 +111,7 @@ export function EventsPage() {
             lineHeight: 1.75,
           }}
         >
-          Throughout the year, Marlund hosts a series of events: tasting dinners, chef&apos;s
-          table evenings, long lunches, and private celebrations. Each one is designed to be
-          something you talk about for a while after.
+          Music, food, cocktails, brunches, watch parties, and private tables at Cello.
         </p>
       </section>
 
@@ -220,26 +218,26 @@ export function EventsPage() {
               className="mb-5 opacity-80"
               style={{ ...serifStyle, fontSize: "18px", color: "#fbf4e9", lineHeight: 1.8 }}
             >
-              The CELLO dining room is available for exclusive private hire. Whether a corporate
-              dinner, a celebration, or a landmark birthday - we tailor every detail to you.
+              From birthdays and group dinners to private celebration tables, Cello offers a warm
+              setting shaped around your occasion.
             </p>
             <p
               className="mb-10 opacity-60"
               style={{ ...serifStyle, fontSize: "16px", color: "#fbf4e9", lineHeight: 1.75 }}
             >
-              Speak to our events team to discuss your requirements. Menus, floristry,
-              entertainment, and overnight packages can all be arranged.
+              Food, cocktails, music, and table planning come together in one restaurant-bar
+              setting built for private moments.
             </p>
-            <a
-              href="mailto:events@marlund.com"
+            <Link
+              href="/venue"
               className="inline-block border border-[#fbf4e9] px-8 py-4 uppercase tracking-[0.2em] text-[#fbf4e9] transition-all duration-300 hover:bg-[#fbf4e9] hover:text-[#372821]"
               style={{ ...bodyStyle, fontSize: "11px" }}
             >
-              Contact the Events Team
-            </a>
+              Plan an Event
+            </Link>
           </div>
           <div className="aspect-[4/3] overflow-hidden">
-            <img src={VENUE_IMG} alt="Private dining setup" className="h-full w-full object-cover" />
+            <img src={VENUE_IMG} alt="Private event setup" className="h-full w-full object-cover" />
           </div>
         </div>
       </section>
