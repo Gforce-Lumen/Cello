@@ -5,7 +5,7 @@ import { buildPageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = buildPageMetadata(
   "Events",
-  "Discover Marlund's tasting dinners, chef's table evenings, and private event offerings.",
+  "Explore events at Cello Restaurant & Bar, including lounge nights, live music, brunch, and private celebration tables.",
   "/events",
 );
 

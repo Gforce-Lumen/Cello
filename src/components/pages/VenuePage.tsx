@@ -57,7 +57,7 @@ export function VenuePage() {
             className="mb-4 uppercase tracking-[0.3em] opacity-60"
             style={{ ...bodyStyle, fontSize: "11px", color: "#fbf4e9" }}
           >
-            Marlund
+            Cello
           </p>
           <h1
             className="leading-none"
@@ -99,8 +99,8 @@ export function VenuePage() {
               className="mb-5 opacity-80"
               style={{ ...serifStyle, fontSize: "18px", color: "#372821", lineHeight: 1.8 }}
             >
-              Marlund can be hired exclusively for private events. The venue accommodates up to 48
-              guests across the main dining room and the CELLO bar - each an elegant, considered
+              Cello can be hired exclusively for private events. The venue accommodates up to 48
+              guests across the main dining room and the Cello bar - each an elegant, considered
               space that works equally well for business and celebration.
             </p>
             <p
@@ -115,7 +115,7 @@ export function VenuePage() {
               className="mt-10 inline-block border border-[#372821] px-8 py-4 uppercase tracking-[0.2em] text-[#372821] transition-all duration-300 hover:bg-[#372821] hover:text-[#fbf4e9]"
               style={{ ...bodyStyle, fontSize: "11px" }}
             >
-              Enquire About Hire
+              Book the Venue
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-4">
@@ -267,7 +267,7 @@ export function VenuePage() {
           className="inline-block border border-[#372821] px-10 py-4 uppercase tracking-[0.2em] text-[#372821] transition-all duration-300 hover:bg-[#372821] hover:text-[#fbf4e9]"
           style={{ ...bodyStyle, fontSize: "11px" }}
         >
-          events@marlund.com
+          Book the Venue
         </a>
       </section>
     </div>

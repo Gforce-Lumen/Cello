@@ -8,6 +8,7 @@ const navigationItems = [
   { href: "/about", label: "About" },
   { href: "/events", label: "Events" },
   { href: "/venue", label: "Venue" },
+  { href: "/order-at-table", label: "Order at Table" },
   { href: "/booking", label: "Book a Table" },
 ] as const;
 
