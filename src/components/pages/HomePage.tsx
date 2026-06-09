@@ -3,7 +3,7 @@
 import Link from "next/link";
 
 const IMAGES = {
-  hero: "https://images.unsplash.com/photo-1687648431656-da99da578d50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920",
+  hero: "/pics/hero.png",
   about1: "https://images.unsplash.com/photo-1666032119084-82351976a922?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
   about2: "https://images.unsplash.com/photo-1502920764203-b859c2384716?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
   about3: "https://images.unsplash.com/photo-1679312061521-d7d619a8cfb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
@@ -49,19 +49,19 @@ const kitchenItems = [
 
 const eventItems = [
   {
-    title: "Friday Lounge Night",
-    desc: "Cocktails, music, and late-evening tables.",
-    cta: "Reserve a Table",
+    title: "Live Band Fridays",
+    desc: "Cocktails, music, and late-evening vibes.",
+    cta: "Make a reservation",
   },
   {
-    title: "Live Band Evening",
-    desc: "Dinner, drinks, and live sounds in a warm setting.",
+    title: "Game Night Saturdays",
+    desc: "Dinner, drinks, and games till you drop.",
     cta: "View Details",
   },
   {
-    title: "Sunday Brunch",
+    title: "Sunday Buffet",
     desc: "A softer afternoon for food, drinks, and easy conversation.",
-    cta: "Book Brunch",
+    cta: "Make a Reservation",
   },
   {
     title: "Game Night",
