@@ -42,6 +42,14 @@ const inputStyle: CSSProperties = {
   width: "100%",
 };
 
+function formatTimeLabel(time: string) {
+  const [hoursText, minutes] = time.split(":");
+  const hours = Number(hoursText);
+  const suffix = hours >= 12 ? "PM" : "AM";
+  const normalizedHours = hours % 12 === 0 ? 12 : hours % 12;
+  return `${normalizedHours}:${minutes} ${suffix}`;
+}
+
 export function BookingPage() {
   const [submitted, setSubmitted] = useState(false);
   const [form, setForm] = useState({
@@ -80,7 +88,7 @@ export function BookingPage() {
               className="mb-5 uppercase tracking-[0.3em] opacity-60"
               style={{ ...bodyStyle, fontSize: "11px", color: "#fbf4e9" }}
             >
-              Marlund · London
+              Cello · Accra
             </p>
             <h1
               className="mb-6 leading-none"
@@ -100,14 +108,14 @@ export function BookingPage() {
                 lineHeight: 1.7,
               }}
             >
-              We look forward to welcoming you. Reservations are available up to 60 days in
+              We look forward to welcoming you. Reservations are available up to 14 days in
               advance.
             </p>
             <div className="mt-12 flex flex-col gap-2">
               <p style={{ ...bodyStyle, fontSize: "12px", color: "#fbf4e9", opacity: 0.55 }}>
                 For same-day or large-party bookings, please call us at
               </p>
-              <p style={{ ...headingStyle, fontSize: "18px", color: "#fbf4e9" }}>+020 4321 8765</p>
+              <p style={{ ...headingStyle, fontSize: "18px", color: "#fbf4e9" }}>+233 55 020 4636</p>
             </div>
           </div>
         </div>
@@ -118,7 +126,7 @@ export function BookingPage() {
               className="mb-4 uppercase tracking-[0.3em] opacity-50"
               style={{ ...bodyStyle, fontSize: "11px", color: "#372821" }}
             >
-              Marlund · London
+              Cello · Accra
             </p>
             <h1
               className="leading-none"
@@ -206,7 +214,7 @@ export function BookingPage() {
                     type="tel"
                     value={form.phone}
                     onChange={handleChange}
-                    placeholder="+44 7700 900000"
+                    placeholder="+233 55 000 0000"
                     style={inputBase}
                     className="placeholder:opacity-30"
                   />
@@ -282,7 +290,7 @@ export function BookingPage() {
                       "21:30",
                     ].map((time) => (
                       <option key={time} value={time}>
-                        {time}
+                        {formatTimeLabel(time)}
                       </option>
                     ))}
                   </select>

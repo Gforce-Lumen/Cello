@@ -1,0 +1,85 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "CELLO" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e5]:
+        - link "Menu" [ref=e6] [cursor=pointer]:
+          - /url: /menu/
+        - link "About" [ref=e7] [cursor=pointer]:
+          - /url: /about/
+        - link "Events" [ref=e8] [cursor=pointer]:
+          - /url: /events/
+        - link "Venue" [ref=e9] [cursor=pointer]:
+          - /url: /venue/
+        - link "Book a Table" [ref=e10] [cursor=pointer]:
+          - /url: /booking/
+  - main [ref=e11]:
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - img "Restaurant tables" [ref=e14]
+        - generic [ref=e16]:
+          - paragraph [ref=e17]: Marlund
+          - heading "THE MENU" [level=1] [ref=e18]
+      - generic [ref=e20]:
+        - button "Seasonal Mains" [ref=e21]
+        - button "Light Bites" [ref=e22]
+        - button "House Cocktails" [ref=e23]
+      - generic [ref=e25]:
+        - paragraph [ref=e26]: Sourced daily · Prepared with care
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - img "Dry-Aged Côte de Bœuf" [ref=e30]
+            - generic [ref=e31]:
+              - generic [ref=e32]:
+                - paragraph [ref=e33]: Dry-Aged Côte de Bœuf
+                - paragraph [ref=e34]: 28-day aged, béarnaise, bone marrow butter, triple-cooked chips
+              - paragraph [ref=e35]: £58
+          - generic [ref=e36]:
+            - img "Cornish Salmon" [ref=e38]
+            - generic [ref=e39]:
+              - generic [ref=e40]:
+                - paragraph [ref=e41]: Cornish Salmon
+                - paragraph [ref=e42]: Leek velouté, capers, dill oil, crème fraîche, asparagus
+              - paragraph [ref=e43]: £36
+          - generic [ref=e44]:
+            - img "Slow-Braised Short Rib" [ref=e46]
+            - generic [ref=e47]:
+              - generic [ref=e48]:
+                - paragraph [ref=e49]: Slow-Braised Short Rib
+                - paragraph [ref=e50]: Roasted root vegetables, red wine jus, gremolata, truffle mash
+              - paragraph [ref=e51]: £44
+      - paragraph [ref=e53]: Please inform your server of any dietary requirements or allergies before ordering. All dishes are prepared in a kitchen that handles nuts, gluten, dairy, and shellfish.
+  - contentinfo [ref=e54]:
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - link "CELLO" [ref=e58] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e59]: © 2025 All Rights Reserved
+        - generic [ref=e60]:
+          - paragraph [ref=e61]: Contact
+          - paragraph [ref=e62]: 15 First Osu Lane
+          - paragraph [ref=e63]: Accra, Ghana
+          - paragraph [ref=e64]: +233 55 020 4636
+        - generic [ref=e65]:
+          - paragraph [ref=e66]: Opening Hours
+          - paragraph [ref=e67]: "Monday: Closed"
+          - paragraph [ref=e68]: "Tue-Thu: 4:00 PM - 12:00 AM"
+          - paragraph [ref=e69]: "Fri-Sun: 4:00 PM - 2:30 AM"
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - paragraph [ref=e72]: Socials
+            - link "Instagram" [ref=e73] [cursor=pointer]:
+              - /url: https://www.instagram.com/cello_accra/
+            - link "TikTok" [ref=e74] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@cello_accra
+          - generic [ref=e75]:
+            - paragraph [ref=e76]: Legal
+            - link "Privacy Policy" [ref=e77] [cursor=pointer]:
+              - /url: "#"
+            - link "Terms of Service" [ref=e78] [cursor=pointer]:
+              - /url: "#"
+      - paragraph [ref=e80]: Food, cocktails, music, and evening rhythm in one warm Accra setting.
+  - button "Open Next.js Dev Tools" [ref=e86] [cursor=pointer]:
+    - img [ref=e87]

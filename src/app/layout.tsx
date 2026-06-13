@@ -25,22 +25,22 @@ const bodyFont = Jost({
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Marlund",
+  title: "Cello Restaurant & Bar",
   description:
-    "A Marlund-inspired premium restaurant website ported into the current Next.js application.",
-  applicationName: "Marlund",
+    "Food, cocktails, music, and evening rhythm in one warm Accra restaurant and bar setting.",
+  applicationName: "Cello Restaurant & Bar",
   openGraph: {
-    title: "Marlund",
+    title: "Cello Restaurant & Bar",
     description:
-      "A Marlund-inspired premium restaurant website ported into the current Next.js application.",
-    siteName: "Marlund",
+      "Food, cocktails, music, and evening rhythm in one warm Accra restaurant and bar setting.",
+    siteName: "Cello Restaurant & Bar",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Marlund",
+    title: "Cello Restaurant & Bar",
     description:
-      "A Marlund-inspired premium restaurant website ported into the current Next.js application.",
+      "Food, cocktails, music, and evening rhythm in one warm Accra restaurant and bar setting.",
   },
 };
 

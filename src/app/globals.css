@@ -88,3 +88,12 @@ button {
   overscroll-behavior-x: contain;
   -webkit-overflow-scrolling: touch;
 }
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}

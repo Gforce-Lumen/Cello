@@ -1,0 +1,215 @@
+[    1109ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[    1335ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 5860005ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 5860984ms] [ERROR] ./src/app/menu/page.tsx:3:1
+Module not found: Can't resolve '@/components/pages/MenuPage'
+  1 | import type { Metadata } from "next";
+  2 |
+> 3 | import { MenuPage } from "@/components/pages/MenuPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { buildPageMetadata } from "@/lib/metadata";
+  5 |
+  6 | export const metadata: Metadata = buildPageMetadata(
+
+Import map: aliased to relative './src/components/pages/MenuPage' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 5861252ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 5861400ms] [ERROR] ./src/app/menu/page.tsx:3:1
+Module not found: Can't resolve '@/components/pages/MenuPage'
+  1 | import type { Metadata } from "next";
+  2 |
+> 3 | import { MenuPage } from "@/components/pages/MenuPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { buildPageMetadata } from "@/lib/metadata";
+  5 |
+  6 | export const metadata: Metadata = buildPageMetadata(
+
+Import map: aliased to relative './src/components/pages/MenuPage' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 5861503ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 5868441ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/menu/?_rsc=WGzdsv_iEsJVL7mT:0
+[ 5868538ms] [ERROR] ./src/app/menu/page.tsx:3:1
+Module not found: Can't resolve '@/components/pages/MenuPage'
+  1 | import type { Metadata } from "next";
+  2 |
+> 3 | import { MenuPage } from "@/components/pages/MenuPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { buildPageMetadata } from "@/lib/metadata";
+  5 |
+  6 | export const metadata: Metadata = buildPageMetadata(
+
+Import map: aliased to relative './src/components/pages/MenuPage' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 5868950ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 5869171ms] [ERROR] ./src/app/menu/page.tsx:3:1
+Module not found: Can't resolve '@/components/pages/MenuPage'
+  1 | import type { Metadata } from "next";
+  2 |
+> 3 | import { MenuPage } from "@/components/pages/MenuPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { buildPageMetadata } from "@/lib/metadata";
+  5 |
+  6 | export const metadata: Metadata = buildPageMetadata(
+
+Import map: aliased to relative './src/components/pages/MenuPage' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 5869192ms] [ERROR] ./src/app/menu/page.tsx:3:1
+Module not found: Can't resolve '@/components/pages/MenuPage'
+  1 | import type { Metadata } from "next";
+  2 |
+> 3 | import { MenuPage } from "@/components/pages/MenuPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { buildPageMetadata } from "@/lib/metadata";
+  5 |
+  6 | export const metadata: Metadata = buildPageMetadata(
+
+Import map: aliased to relative './src/components/pages/MenuPage' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 5869204ms] [ERROR] ./src/app/menu/page.tsx:3:1
+Module not found: Can't resolve '@/components/pages/MenuPage'
+  1 | import type { Metadata } from "next";
+  2 |
+> 3 | import { MenuPage } from "@/components/pages/MenuPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { buildPageMetadata } from "@/lib/metadata";
+  5 |
+  6 | export const metadata: Metadata = buildPageMetadata(
+
+Import map: aliased to relative './src/components/pages/MenuPage' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 5869314ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 5869437ms] [ERROR] ./src/app/menu/page.tsx:3:1
+Module not found: Can't resolve '@/components/pages/MenuPage'
+  1 | import type { Metadata } from "next";
+  2 |
+> 3 | import { MenuPage } from "@/components/pages/MenuPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { buildPageMetadata } from "@/lib/metadata";
+  5 |
+  6 | export const metadata: Metadata = buildPageMetadata(
+
+Import map: aliased to relative './src/components/pages/MenuPage' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 5869452ms] [ERROR] ./src/app/menu/page.tsx:3:1
+Module not found: Can't resolve '@/components/pages/MenuPage'
+  1 | import type { Metadata } from "next";
+  2 |
+> 3 | import { MenuPage } from "@/components/pages/MenuPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { buildPageMetadata } from "@/lib/metadata";
+  5 |
+  6 | export const metadata: Metadata = buildPageMetadata(
+
+Import map: aliased to relative './src/components/pages/MenuPage' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 5869552ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 5869778ms] [ERROR] ./src/app/menu/page.tsx:3:1
+Module not found: Can't resolve '@/components/pages/MenuPage'
+  1 | import type { Metadata } from "next";
+  2 |
+> 3 | import { MenuPage } from "@/components/pages/MenuPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { buildPageMetadata } from "@/lib/metadata";
+  5 |
+  6 | export const metadata: Metadata = buildPageMetadata(
+
+Import map: aliased to relative './src/components/pages/MenuPage' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 5869794ms] [ERROR] ./src/app/menu/page.tsx:3:1
+Module not found: Can't resolve '@/components/pages/MenuPage'
+  1 | import type { Metadata } from "next";
+  2 |
+> 3 | import { MenuPage } from "@/components/pages/MenuPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { buildPageMetadata } from "@/lib/metadata";
+  5 |
+  6 | export const metadata: Metadata = buildPageMetadata(
+
+Import map: aliased to relative './src/components/pages/MenuPage' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 5869884ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 5869963ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/menu/?_rsc=WGzdsv_iEsJVL7mT:0
+[ 5870136ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/menu/:0
+[ 5871155ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0kla17-._.js:15305
+[ 5871392ms] Error: ./src/app/menu/page.tsx:3:1
+Module not found: Can't resolve '@/components/pages/MenuPage'
+  1 | import type { Metadata } from "next";
+  2 |
+> 3 | import { MenuPage } from "@/components/pages/MenuPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { buildPageMetadata } from "@/lib/metadata";
+  5 |
+  6 | export const metadata: Metadata = buildPageMetadata(
+
+Import map: aliased to relative './src/components/pages/MenuPage' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./src/app/menu/page.tsx:3:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file://C:\Users\LENOVO THINKPAD X1\.codex\worktrees\3d9a\cello\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file://C:\Users\LENOVO THINKPAD X1\.codex\worktrees\3d9a\cello\node_modules\next\dist\server\lib\dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file://C:\Users\LENOVO THINKPAD X1\.codex\worktrees\3d9a\cello\node_modules\next\dist\server\dev\next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file://C:\Users\LENOVO THINKPAD X1\.codex\worktrees\3d9a\cello\node_modules\next\dist\server\dev\next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\LENOVO THINKPAD X1\.codex\worktrees\3d9a\cello\node_modules\next\dist\server\base-server.js:1753:26)
+[ 5871375ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[ 5871515ms] [ERROR] ./src/app/menu/page.tsx:3:1
+Module not found: Can't resolve '@/components/pages/MenuPage'
+  1 | import type { Metadata } from "next";
+  2 |
+> 3 | import { MenuPage } from "@/components/pages/MenuPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { buildPageMetadata } from "@/lib/metadata";
+  5 |
+  6 | export const metadata: Metadata = buildPageMetadata(
+
+Import map: aliased to relative './src/components/pages/MenuPage' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 5871662ms] [ERROR] ./src/app/menu/page.tsx:3:1
+Module not found: Can't resolve '@/components/pages/MenuPage'
+  1 | import type { Metadata } from "next";
+  2 |
+> 3 | import { MenuPage } from "@/components/pages/MenuPage";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { buildPageMetadata } from "@/lib/metadata";
+  5 |
+  6 | export const metadata: Metadata = buildPageMetadata(
+
+Import map: aliased to relative './src/components/pages/MenuPage' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 6023681ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[ 6025782ms] [LOG] [Fast Refresh] done in 2209ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[ 6026508ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[ 6027293ms] [LOG] [Fast Refresh] done in 894ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[ 6027930ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 6028078ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 6028231ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 6028270ms] [LOG] [Fast Refresh] done in 149ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 6065702ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 6065852ms] [LOG] [Fast Refresh] done in 190ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 6065961ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 6066190ms] [LOG] [Fast Refresh] done in 331ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 6066295ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 6066339ms] [LOG] [Fast Refresh] done in 146ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 6077487ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 6077667ms] [LOG] [Fast Refresh] done in 222ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 6077781ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 6078059ms] [LOG] [Fast Refresh] done in 383ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 6078195ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 6078288ms] [LOG] [Fast Refresh] done in 197ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 6161281ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 6161410ms] [LOG] [Fast Refresh] done in 231ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477

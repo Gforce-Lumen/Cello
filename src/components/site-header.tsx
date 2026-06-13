@@ -8,6 +8,7 @@ const navigationItems = [
   { href: "/about", label: "About" },
   { href: "/events", label: "Events" },
   { href: "/venue", label: "Venue" },
+  { href: "/order-at-table", label: "Order at Table" },
   { href: "/booking", label: "Book a Table" },
 ] as const;
 
@@ -39,7 +40,7 @@ export function SiteHeader() {
           href="/"
           className="font-display text-[18px] font-semibold uppercase tracking-[0.16em] text-[#fbf4e9] sm:text-[22px] sm:tracking-[0.2em]"
         >
-          MARLUND
+          CELLO
         </Link>
 
         <nav className="hidden items-center gap-10 md:flex">
