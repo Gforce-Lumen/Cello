@@ -112,7 +112,7 @@ export function BookingPage() {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center px-8 py-32 md:px-16 md:py-24">
+        <div className="page-gutter flex flex-col justify-center py-32 md:px-16 md:py-24">
           <div className="mb-10 md:hidden">
             <p
               className="mb-4 uppercase tracking-[0.3em] opacity-50"

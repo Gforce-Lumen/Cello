@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export function SiteFooter() {
   return (
-    <footer className="bg-[#372821] px-8 py-16">
-      <div className="mx-auto max-w-[1400px]">
+    <footer className="bg-[#372821] py-16">
+      <div className="page-gutter mx-auto max-w-[1400px]">
         <div className="grid grid-cols-1 gap-12 border-b border-[#5e5249] pb-12 md:grid-cols-4">
           <div className="flex flex-col gap-3">
             <Link

@@ -35,28 +35,28 @@ export function HomePage() {
               "linear-gradient(to top, rgba(55,40,33,0.85) 0%, rgba(55,40,33,0.3) 50%, transparent 100%)",
           }}
         />
-        <div className="relative z-10 mx-auto w-full max-w-[1400px] px-8 pb-20 md:pb-28">
+        <div className="page-gutter relative z-10 mx-auto w-full max-w-[1400px] pb-20 md:pb-28">
           <p
-            className="mb-5 text-[#fbf4e9] uppercase tracking-[0.35em] opacity-70"
+            className="mb-5 max-w-full text-[#fbf4e9] uppercase tracking-[0.22em] opacity-70 sm:tracking-[0.35em]"
             style={{ ...bodyStyle, fontSize: "11px" }}
           >
             Fine Dining · London
           </p>
           <h1
-            className="leading-none text-[#fbf4e9]"
+            className="max-w-[7ch] text-[#fbf4e9] leading-[0.88] sm:max-w-none sm:leading-none"
             style={{
               ...headingStyle,
-              fontSize: "clamp(72px, 10vw, 140px)",
+              fontSize: "clamp(52px, 16vw, 140px)",
               fontWeight: 600,
             }}
           >
             MARLUND
           </h1>
           <p
-            className="mt-5 max-w-[500px] text-[#fbf4e9] opacity-80"
+            className="mt-5 max-w-[32rem] text-[#fbf4e9] opacity-80"
             style={{
               ...serifStyle,
-              fontSize: "19px",
+              fontSize: "clamp(17px, 4.5vw, 19px)",
               fontStyle: "italic",
               fontWeight: 300,
             }}
@@ -64,17 +64,17 @@ export function HomePage() {
             A celebration of seasonal British produce, elevated through classical technique and
             quiet elegance.
           </p>
-          <div className="mt-10 flex flex-wrap gap-5">
+          <div className="mt-10 flex flex-col items-start gap-4 sm:flex-row sm:flex-wrap sm:gap-5">
             <Link
               href="/booking"
-              className="inline-block border border-[#fbf4e9] px-8 py-4 uppercase tracking-[0.2em] text-[#fbf4e9] transition-all duration-300 hover:bg-[#fbf4e9] hover:text-[#372821]"
+              className="inline-block max-w-full border border-[#fbf4e9] px-6 py-4 uppercase tracking-[0.18em] text-[#fbf4e9] transition-all duration-300 hover:bg-[#fbf4e9] hover:text-[#372821] sm:px-8 sm:tracking-[0.2em]"
               style={{ ...bodyStyle, fontSize: "11px" }}
             >
               Book a Table
             </Link>
             <Link
               href="/menu"
-              className="inline-block px-8 py-4 uppercase tracking-[0.2em] text-[#fbf4e9] opacity-70 transition-opacity hover:opacity-100"
+              className="inline-block max-w-full px-0 py-4 uppercase tracking-[0.18em] text-[#fbf4e9] opacity-70 transition-opacity hover:opacity-100 sm:px-8 sm:tracking-[0.2em]"
               style={{ ...bodyStyle, fontSize: "11px" }}
             >
               View Menu →
@@ -83,7 +83,7 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-[1400px] px-8 py-24 md:py-32">
+      <section className="page-gutter mx-auto max-w-[1400px] py-24 md:py-32">
         <div className="grid items-center gap-16 md:grid-cols-2">
           <div>
             <p
@@ -138,7 +138,7 @@ export function HomePage() {
       </section>
 
       <section style={{ backgroundColor: "#372821" }} className="py-24 md:py-32">
-        <div className="mx-auto max-w-[1400px] px-8">
+        <div className="page-gutter mx-auto max-w-[1400px]">
           <div className="mb-14 flex flex-col justify-between gap-6 md:flex-row md:items-end">
             <div>
               <p
@@ -228,7 +228,7 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-[1400px] px-8 py-24 md:py-32">
+      <section className="page-gutter mx-auto max-w-[1400px] py-24 md:py-32">
         <div className="grid items-center gap-16 md:grid-cols-2">
           <div className="grid grid-cols-2 gap-4">
             <img src={IMAGES.event1} alt="Wine glasses" className="aspect-[3/4] w-full object-cover" />
@@ -314,7 +314,7 @@ export function HomePage() {
       </section>
 
       <section style={{ backgroundColor: "#372821" }} className="py-24 md:py-32">
-        <div className="mx-auto grid max-w-[1400px] items-center gap-16 px-8 md:grid-cols-2">
+        <div className="page-gutter mx-auto grid max-w-[1400px] items-center gap-16 md:grid-cols-2">
           <div>
             <p
               className="mb-5 uppercase tracking-[0.25em] opacity-50"
@@ -408,7 +408,7 @@ export function HomePage() {
       </section>
 
       <section className="bg-[#fbf4e9] py-24 text-center md:py-32">
-        <div className="mx-auto max-w-[700px] px-8">
+        <div className="page-gutter mx-auto max-w-[700px]">
           <p
             className="mb-5 uppercase tracking-[0.3em] opacity-50"
             style={{ ...bodyStyle, fontSize: "11px", color: "#372821" }}

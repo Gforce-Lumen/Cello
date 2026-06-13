@@ -54,7 +54,7 @@ export default function RootLayout({
       lang="en"
       className={`${headingFont.variable} ${serifFont.variable} ${bodyFont.variable} h-full antialiased`}
     >
-      <body className="min-h-full bg-[var(--color-bg)] text-[var(--color-ink)]">
+      <body className="min-h-full overflow-x-clip bg-[var(--color-bg)] text-[var(--color-ink)]">
         <SiteShell>{children}</SiteShell>
       </body>
     </html>

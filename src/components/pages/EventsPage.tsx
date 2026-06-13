@@ -62,7 +62,7 @@ export function EventsPage() {
               "linear-gradient(to top, rgba(55,40,33,0.9) 0%, rgba(55,40,33,0.4) 55%, transparent 100%)",
           }}
         />
-        <div className="relative z-10 mx-auto w-full max-w-[1400px] px-8 pb-16">
+        <div className="page-gutter relative z-10 mx-auto w-full max-w-[1400px] pb-16">
           <p
             className="mb-4 uppercase tracking-[0.3em] opacity-60"
             style={{ ...bodyStyle, fontSize: "11px", color: "#fbf4e9" }}
@@ -83,7 +83,7 @@ export function EventsPage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-[900px] px-8 py-20 text-center">
+      <section className="page-gutter mx-auto max-w-[900px] py-20 text-center">
         <p
           className="mb-5 uppercase tracking-[0.25em] opacity-50"
           style={{ ...bodyStyle, fontSize: "11px", color: "#372821" }}
@@ -117,7 +117,7 @@ export function EventsPage() {
         </p>
       </section>
 
-      <section className="mx-auto max-w-[1400px] px-8 pb-24">
+      <section className="page-gutter mx-auto max-w-[1400px] pb-24">
         <div className="flex flex-col gap-0">
           {EVENTS.map((eventItem) => (
             <div
@@ -197,7 +197,7 @@ export function EventsPage() {
       </section>
 
       <section style={{ backgroundColor: "#372821" }} className="py-24 md:py-32">
-        <div className="mx-auto grid max-w-[1400px] items-center gap-16 px-8 md:grid-cols-2">
+        <div className="page-gutter mx-auto grid max-w-[1400px] items-center gap-16 md:grid-cols-2">
           <div>
             <p
               className="mb-5 uppercase tracking-[0.25em] opacity-50"

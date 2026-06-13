@@ -25,7 +25,7 @@ export function AboutPage() {
               "linear-gradient(to top, rgba(55,40,33,0.9) 0%, rgba(55,40,33,0.35) 55%, transparent 100%)",
           }}
         />
-        <div className="relative z-10 mx-auto w-full max-w-[1400px] px-8 pb-16">
+        <div className="page-gutter relative z-10 mx-auto w-full max-w-[1400px] pb-16">
           <p
             className="mb-4 uppercase tracking-[0.3em] opacity-60"
             style={{ ...bodyStyle, fontSize: "11px", color: "#fbf4e9" }}
@@ -46,7 +46,7 @@ export function AboutPage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-[900px] px-8 py-20 text-center">
+      <section className="page-gutter mx-auto max-w-[900px] py-20 text-center">
         <p
           style={{
             ...serifStyle,
@@ -69,7 +69,7 @@ export function AboutPage() {
       </section>
 
       <section style={{ backgroundColor: "#372821" }} className="py-24 md:py-32">
-        <div className="mx-auto grid max-w-[1400px] items-center gap-16 px-8 md:grid-cols-2">
+        <div className="page-gutter mx-auto grid max-w-[1400px] items-center gap-16 md:grid-cols-2">
           <div className="aspect-[3/4] overflow-hidden">
             <img src={IMAGES.story} alt="Where Marlund began" className="h-full w-full object-cover" />
           </div>
@@ -131,7 +131,7 @@ export function AboutPage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-[1400px] px-8 py-24 md:py-32">
+      <section className="page-gutter mx-auto max-w-[1400px] py-24 md:py-32">
         <div className="mb-14 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
             <p
@@ -198,8 +198,8 @@ export function AboutPage() {
         </div>
       </section>
 
-      <section style={{ backgroundColor: "#372821" }} className="px-8 py-24">
-        <div className="mx-auto max-w-[1400px]">
+      <section style={{ backgroundColor: "#372821" }} className="py-24">
+        <div className="page-gutter mx-auto max-w-[1400px]">
           <p
             className="mb-5 text-center uppercase tracking-[0.25em] opacity-50"
             style={{ ...bodyStyle, fontSize: "11px", color: "#fbf4e9" }}

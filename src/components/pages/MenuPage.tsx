@@ -90,7 +90,7 @@ export function MenuPage() {
               "linear-gradient(to top, rgba(55,40,33,0.9) 0%, rgba(55,40,33,0.4) 60%, transparent 100%)",
           }}
         />
-        <div className="relative z-10 mx-auto w-full max-w-[1400px] px-8 pb-16">
+        <div className="page-gutter relative z-10 mx-auto w-full max-w-[1400px] pb-16">
           <p
             className="mb-4 uppercase tracking-[0.3em] opacity-60"
             style={{ ...bodyStyle, fontSize: "11px", color: "#fbf4e9" }}
@@ -112,7 +112,7 @@ export function MenuPage() {
       </section>
 
       <div style={{ backgroundColor: "#372821" }} className="sticky top-[72px] z-40">
-        <div className="mx-auto flex max-w-[1400px] gap-0 overflow-x-auto px-8">
+        <div className="page-gutter horizontal-scroll-region mx-auto flex max-w-[1400px] gap-0">
           {TABS.map((item, index) => (
             <button
               key={item}
@@ -132,7 +132,7 @@ export function MenuPage() {
         </div>
       </div>
 
-      <section className="mx-auto max-w-[1400px] px-8 py-20">
+      <section className="page-gutter mx-auto max-w-[1400px] py-20">
         {tab === 0 ? (
           <div>
             <p
@@ -281,7 +281,7 @@ export function MenuPage() {
         ) : null}
       </section>
 
-      <div className="mx-auto max-w-[1400px] px-8 pb-20">
+      <div className="page-gutter mx-auto max-w-[1400px] pb-20">
         <p
           style={{
             ...serifStyle,

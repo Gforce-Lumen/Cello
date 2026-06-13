@@ -34,10 +34,10 @@ export function SiteHeader() {
         backdropFilter: scrolled ? "blur(8px)" : "none",
       }}
     >
-      <div className="mx-auto flex max-w-[1400px] items-center justify-between gap-6 px-8 py-5">
+      <div className="page-gutter mx-auto flex max-w-[1400px] items-center justify-between gap-4 py-5 sm:gap-6">
         <Link
           href="/"
-          className="font-display text-[22px] font-semibold uppercase tracking-[0.2em] text-[#fbf4e9]"
+          className="font-display text-[18px] font-semibold uppercase tracking-[0.16em] text-[#fbf4e9] sm:text-[22px] sm:tracking-[0.2em]"
         >
           MARLUND
         </Link>
@@ -58,7 +58,7 @@ export function SiteHeader() {
 
         <button
           type="button"
-          className="flex flex-col gap-[5px] p-2 md:hidden"
+          className="flex shrink-0 flex-col gap-[5px] p-2 md:hidden"
           onClick={() => setIsOpen((current) => !current)}
           aria-expanded={isOpen}
           aria-label="Toggle menu"

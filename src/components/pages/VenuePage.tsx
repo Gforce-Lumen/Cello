@@ -52,7 +52,7 @@ export function VenuePage() {
               "linear-gradient(to top, rgba(55,40,33,0.9) 0%, rgba(55,40,33,0.4) 55%, transparent 100%)",
           }}
         />
-        <div className="relative z-10 mx-auto w-full max-w-[1400px] px-8 pb-16">
+        <div className="page-gutter relative z-10 mx-auto w-full max-w-[1400px] pb-16">
           <p
             className="mb-4 uppercase tracking-[0.3em] opacity-60"
             style={{ ...bodyStyle, fontSize: "11px", color: "#fbf4e9" }}
@@ -75,7 +75,7 @@ export function VenuePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-[1400px] px-8 py-24 md:py-32">
+      <section className="page-gutter mx-auto max-w-[1400px] py-24 md:py-32">
         <div className="grid items-start gap-16 md:grid-cols-2">
           <div>
             <p
@@ -129,7 +129,7 @@ export function VenuePage() {
       </section>
 
       <section style={{ backgroundColor: "#372821" }} className="py-24 md:py-32">
-        <div className="mx-auto max-w-[1400px] px-8">
+        <div className="page-gutter mx-auto max-w-[1400px]">
           <p
             className="mb-5 uppercase tracking-[0.25em] opacity-50"
             style={{ ...bodyStyle, fontSize: "11px", color: "#fbf4e9" }}
@@ -187,7 +187,7 @@ export function VenuePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-[1400px] px-8 py-24 md:py-32">
+      <section className="page-gutter mx-auto max-w-[1400px] py-24 md:py-32">
         <p
           className="mb-5 uppercase tracking-[0.25em] opacity-50"
           style={{ ...bodyStyle, fontSize: "11px", color: "#372821" }}
@@ -237,38 +237,40 @@ export function VenuePage() {
         </div>
       </section>
 
-      <section className="bg-[#fbf4e9] px-8 py-20 text-center">
-        <h2
-          className="mb-6 leading-tight"
-          style={{
-            ...headingStyle,
-            fontSize: "clamp(30px, 3.5vw, 48px)",
-            color: "#372821",
-            fontWeight: 600,
-          }}
-        >
-          START PLANNING YOUR EVENT
-        </h2>
-        <p
-          className="mx-auto mb-10 max-w-[500px]"
-          style={{
-            ...serifStyle,
-            fontSize: "17px",
-            color: "#372821",
-            opacity: 0.65,
-            fontStyle: "italic",
-          }}
-        >
-          Our events team is available Monday to Friday to discuss your requirements and create a
-          proposal.
-        </p>
-        <a
-          href="mailto:events@marlund.com"
-          className="inline-block border border-[#372821] px-10 py-4 uppercase tracking-[0.2em] text-[#372821] transition-all duration-300 hover:bg-[#372821] hover:text-[#fbf4e9]"
-          style={{ ...bodyStyle, fontSize: "11px" }}
-        >
-          events@marlund.com
-        </a>
+      <section className="bg-[#fbf4e9] py-20 text-center">
+        <div className="page-gutter mx-auto max-w-[1400px]">
+          <h2
+            className="mb-6 leading-tight"
+            style={{
+              ...headingStyle,
+              fontSize: "clamp(30px, 3.5vw, 48px)",
+              color: "#372821",
+              fontWeight: 600,
+            }}
+          >
+            START PLANNING YOUR EVENT
+          </h2>
+          <p
+            className="mx-auto mb-10 max-w-[500px]"
+            style={{
+              ...serifStyle,
+              fontSize: "17px",
+              color: "#372821",
+              opacity: 0.65,
+              fontStyle: "italic",
+            }}
+          >
+            Our events team is available Monday to Friday to discuss your requirements and create a
+            proposal.
+          </p>
+          <a
+            href="mailto:events@marlund.com"
+            className="inline-block border border-[#372821] px-10 py-4 uppercase tracking-[0.2em] text-[#372821] transition-all duration-300 hover:bg-[#372821] hover:text-[#fbf4e9]"
+            style={{ ...bodyStyle, fontSize: "11px" }}
+          >
+            events@marlund.com
+          </a>
+        </div>
       </section>
     </div>
   );
