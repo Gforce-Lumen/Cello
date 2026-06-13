@@ -4,16 +4,16 @@ import Link from "next/link";
 
 const IMAGES = {
   hero: "/pics/hero.png",
-  about1: "https://images.unsplash.com/photo-1666032119084-82351976a922?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
-  about2: "https://images.unsplash.com/photo-1502920764203-b859c2384716?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
-  about3: "https://images.unsplash.com/photo-1679312061521-d7d619a8cfb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
-  menu1: "https://images.unsplash.com/photo-1663530761401-15eefb544889?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
-  menu2: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
+  about1: "/pics/drink1.png",
+  about2: "/pics/outsideday.png",
+  about3: "/pics/food1.png",
+  menu1: "/pics/chickenwings.png",
+  menu2: "/pics/friedrice.png",
   menu3: "https://images.unsplash.com/photo-1514326640560-7d063ef2aed5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
   menu4: "https://images.unsplash.com/photo-1544025162-d76694265947?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
-  cocktail: "https://images.unsplash.com/photo-1509710398975-6454dcdf049f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
-  event1: "https://images.unsplash.com/photo-1484156818044-c040038b0719?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
-  event2: "https://images.unsplash.com/photo-1561912774-79769a0a0a7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+  cocktail: "/pics/outsideday.png",
+  event1: "/pics/drink1.png",
+  event2: "/pics/food1.png",
 } as const;
 
 const headingStyle = { fontFamily: "'Cormorant SC', serif" };
@@ -120,7 +120,7 @@ export function HomePage() {
             className="max-w-[7ch] text-[#fbf4e9] leading-[0.88] sm:max-w-none sm:leading-none"
             style={{
               ...headingStyle,
-              fontSize: "clamp(52px, 16vw, 140px)",
+              fontSize: "clamp(52px, 12.8vw, 140px)",
               fontWeight: 600,
             }}
           >
@@ -134,7 +134,7 @@ export function HomePage() {
               ...serifStyle,
               fontSize: "clamp(17px, 4.5vw, 19px)",
               fontStyle: "italic",
-              fontWeight: 300,
+              fontWeight: 500,
               lineHeight: 1.7,
             }}
           >
@@ -145,7 +145,7 @@ export function HomePage() {
           <div className="mt-10 flex flex-col items-start gap-4 sm:flex-row sm:flex-wrap sm:gap-5">
             <Link
               href="/booking"
-              className="inline-block max-w-full border border-[#fbf4e9] px-6 py-4 uppercase tracking-[0.18em] text-[#fbf4e9] transition-all duration-300 hover:bg-[#fbf4e9] hover:text-[#372821] sm:px-8 sm:tracking-[0.2em]"
+              className="inline-block max-w-full border border-[#fffdfa] px-6 py-4 uppercase tracking-[0.18em] text-[#fbf4e9] transition-all duration-300 hover:bg-[#fffdfa] hover:text-[#372821] sm:px-8 sm:tracking-[0.2em]"
               style={{ ...bodyStyle, fontSize: "11px" }}
             >
               Book a Table
@@ -208,10 +208,10 @@ export function HomePage() {
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-4">
-            <img src={IMAGES.about1} alt="Cello dining room" className="aspect-[3/4] w-full object-cover" />
+            <img src={IMAGES.about1} alt="Cello signature cocktail" className="aspect-[3/4] w-full object-cover" />
             <div className="flex flex-col gap-4 pt-8">
-              <img src={IMAGES.about2} alt="Cello interior detail" className="aspect-square w-full object-cover" />
-              <img src={IMAGES.about3} alt="Cello evening atmosphere" className="aspect-square w-full object-cover" />
+              <img src={IMAGES.about2} alt="Cello outdoor dining area" className="aspect-square w-full object-cover" />
+              <img src={IMAGES.about3} alt="Cello plated starter" className="aspect-square w-full object-cover" />
             </div>
           </div>
         </div>
